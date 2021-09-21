@@ -33,4 +33,4 @@ def dict_to_csv():
             for key in ipl_data_dict:
                 csv_writer_.writerow({field: ipl_data_dict[key].get(field) or key for field in fields})
 
-dict_to_csv()
+dict_to_csv() #function called
